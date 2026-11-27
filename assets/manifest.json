@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "shader.tint",
+      "path": "shaders/shd_tint.frag.glsl",
+      "type": "shader",
+      "preload": true
+    },
+    {
+      "id": "data.character.player",
+      "path": "data/characters/dat_player.json",
+      "type": "json",
+      "preload": true
+    },
+    {
+      "id": "data.items",
+      "path": "data/items/dat_items.json",
+      "type": "json",
+      "preload": true
+    },
+    {
+      "id": "data.recipes",
+      "path": "data/recipes/dat_recipes.json",
+      "type": "json",
+      "preload": true
+    },
+    {
+      "id": "data.map.01",
+      "path": "data/maps/dat_map_01.json",
+      "type": "json",
+      "preload": false
+    }
+  ]
+}

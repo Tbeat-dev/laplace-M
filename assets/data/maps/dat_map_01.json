@@ -1,0 +1,22 @@
+{
+  "id": "map_01",
+  "display_name": "Map 01",
+  "size": {
+    "width": 64,
+    "height": 64
+  },
+  "tilemap": null,
+  "waves": [
+    {
+      "index": 1,
+      "delay_seconds": 3,
+      "enemies": [
+        {
+          "id": "slime",
+          "count": 5,
+          "interval_seconds": 1
+        }
+      ]
+    }
+  ]
+}

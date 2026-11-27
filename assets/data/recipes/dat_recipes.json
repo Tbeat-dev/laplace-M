@@ -1,0 +1,36 @@
+{
+  "crafting": [
+    {
+      "id": "craft_health_potion",
+      "inputs": [
+        {
+          "item_id": "herb",
+          "quantity": 2
+        }
+      ],
+      "output": {
+        "item_id": "health_potion",
+        "quantity": 1
+      }
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "upgrade_iron_sword",
+      "inputs": [
+        {
+          "item_id": "iron_sword",
+          "quantity": 1
+        },
+        {
+          "item_id": "upgrade_stone",
+          "quantity": 2
+        }
+      ],
+      "output": {
+        "item_id": "steel_sword",
+        "quantity": 1
+      }
+    }
+  ]
+}
